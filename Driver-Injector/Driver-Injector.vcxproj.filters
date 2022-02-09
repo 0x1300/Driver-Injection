@@ -19,10 +19,21 @@
     <Filter Include="Quelldateien\injection">
       <UniqueIdentifier>{82ce6dbc-3cb9-4f13-89ad-a035ac625207}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Headerdateien\crypto">
+      <UniqueIdentifier>{71a714e0-4dcd-4086-837b-9bab1a5111cd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xor.hpp">
+      <Filter>Headerdateien\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
